@@ -15,7 +15,7 @@ E:/Unity_Projects_E/CMPM_121/HW1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63524
+50073
 Successfully changed project path to: E:/Unity_Projects_E/CMPM_121/HW1
 E:/Unity_Projects_E/CMPM_121/HW1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/Unity_Projects_E/CMPM_121/HW1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 69.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011112 seconds.
+Registered in 0.007601 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 74.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
+- Completed reload, in  0.630 seconds
 Domain Reload Profiling:
-	ReloadAssembly (653ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (631ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (451ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (441ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (102ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (280ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003795 seconds.
+Registered in 0.003540 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects_E\CMPM_121\HW1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects_E\CMPM_121\HW1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.903 seconds
+- Completed reload, in  0.981 seconds
 Domain Reload Profiling:
-	ReloadAssembly (904ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (707ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
+			SetupTypeCache (267ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (319ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (205ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3837.
-Memory consumption went from 116.3 MB to 116.1 MB.
-Total: 2.737200 ms (FindLiveObjects: 0.245600 ms CreateObjectMapping: 0.268100 ms MarkObjects: 2.139000 ms  DeleteObjects: 0.083900 ms)
+Memory consumption went from 116.4 MB to 116.3 MB.
+Total: 3.716700 ms (FindLiveObjects: 0.229100 ms CreateObjectMapping: 0.206600 ms MarkObjects: 3.182700 ms  DeleteObjects: 0.097000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,101 +163,139 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 450791.298770 seconds.
-  path: Assets/Objects/uploads_files_2479076_Simple+Vehicles.fbx
-  artifactKey: Guid(6687caf3c91ae31448e55333e8cdde3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/uploads_files_2479076_Simple+Vehicles.fbx using Guid(6687caf3c91ae31448e55333e8cdde3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1c71ad6c6254973ed5d1333909d614') in 0.239487 seconds 
+  Time since last request: 461554.474035 seconds.
+  path: Assets/Materials/Trees/EU43Bark4Mat.mat
+  artifactKey: Guid(409056ba1b787ff4e82df9687951ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Trees/EU43Bark4Mat.mat using Guid(409056ba1b787ff4e82df9687951ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66020422ce2290a3d940a8550d34add') in 0.111923 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 340.203938 seconds.
-  path: Assets/Materials/ResidentialBuildings_M/ground.mat
-  artifactKey: Guid(f34ace4c4ea17154e99580433a3ee1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ResidentialBuildings_M/ground.mat using Guid(f34ace4c4ea17154e99580433a3ee1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67192881808eecea8e8174596eded64e') in 0.026828 seconds 
+  Time since last request: 22.437605 seconds.
+  path: Assets/Materials/Trees/EU43Fruit1_MAT.mat
+  artifactKey: Guid(2c7c7717a4e6b0a4ea716152cb000b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Trees/EU43Fruit1_MAT.mat using Guid(2c7c7717a4e6b0a4ea716152cb000b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2da00d100dfa39623a07e5050ee8ee1') in 0.013850 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.298034 seconds.
-  path: Assets/Materials/ResidentialBuildings_M/hotel_glas.mat
-  artifactKey: Guid(7da8d1c3f249017418d84fc2a8404ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ResidentialBuildings_M/hotel_glas.mat using Guid(7da8d1c3f249017418d84fc2a8404ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e0338917b27bfaad99e73a7f9872a8') in 0.010879 seconds 
+  Time since last request: 13.935110 seconds.
+  path: Assets/Materials/Trees/EU43Bark4_Mat.mat
+  artifactKey: Guid(409056ba1b787ff4e82df9687951ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Trees/EU43Bark4_Mat.mat using Guid(409056ba1b787ff4e82df9687951ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e9215a0c392586e4144ae705c973c5') in 0.020890 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.431426 seconds.
-  path: Assets/Objects/Residential Buildings 002.fbx
-  artifactKey: Guid(ea3aca2ac2cf8b241b526425a41344ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Residential Buildings 002.fbx using Guid(ea3aca2ac2cf8b241b526425a41344ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800a55fc7293b9a38d31506e5751eac5') in 0.024414 seconds 
+  Time since last request: 15.117528 seconds.
+  path: Assets/Textures/Trees/EU43_Bark3_Nrm.tif
+  artifactKey: Guid(2c1bc3047597f9546966840c447f4a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Trees/EU43_Bark3_Nrm.tif using Guid(2c1bc3047597f9546966840c447f4a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db887fc6ce14566092de6af790654e6') in 0.031019 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.539409 seconds.
-  path: Assets/Materials/Roads/MAT_Road_Straight_Solid.mat
-  artifactKey: Guid(3801548576274a1409ee8a2983339a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Roads/MAT_Road_Straight_Solid.mat using Guid(3801548576274a1409ee8a2983339a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0b9b826ead8c72c4db611ee8923807') in 0.016793 seconds 
+  Time since last request: 51.316527 seconds.
+  path: Assets/Mesh/Trees/EU43_3.obj
+  artifactKey: Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh/Trees/EU43_3.obj using Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99d2d8e5d9037faf1ac81a0a6c2c792') in 0.295585 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 105.127159 seconds.
-  path: Assets/Textures/ResidentialBuildings/Box_N.jpg
-  artifactKey: Guid(e942978433cf80e45be6c235e7f3c042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/ResidentialBuildings/Box_N.jpg using Guid(e942978433cf80e45be6c235e7f3c042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f450e291b1b1809b1d7f9ea99ba35d') in 0.050425 seconds 
+  Time since last request: 63.439060 seconds.
+  path: Assets/Mesh/Trees/EU43_3.obj
+  artifactKey: Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh/Trees/EU43_3.obj using Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0329a949b95ea48fecb55ccb7ae34878') in 0.318392 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.917657 seconds.
-  path: Assets/Textures/ResidentialBuildings/AussenWand_N.jpg
-  artifactKey: Guid(5fb25a1a4d5f58a439cfb941f1619e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/ResidentialBuildings/AussenWand_N.jpg using Guid(5fb25a1a4d5f58a439cfb941f1619e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b2d3e999f6cb0c5de01d9329d34a42') in 0.025822 seconds 
+  Time since last request: 71.255643 seconds.
+  path: Assets/Materials/Trees/EU43Fruit3_Mat.mat
+  artifactKey: Guid(777c7f14014001c48ad1e9814889ed4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Trees/EU43Fruit3_Mat.mat using Guid(777c7f14014001c48ad1e9814889ed4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b466e5035d74805851e43fd1355e6e38') in 0.011340 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.855207 seconds.
-  path: Assets/Textures/ResidentialBuildings/Box_D.jpg
-  artifactKey: Guid(b46cc366f41800c41908aa5d58ba05c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/ResidentialBuildings/Box_D.jpg using Guid(b46cc366f41800c41908aa5d58ba05c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5da381f9f0de9492f5f62c4032e7a94') in 0.011594 seconds 
+  Time since last request: 15.762203 seconds.
+  path: Assets/Materials/Trees/EU43Leaf1_Mat.mat
+  artifactKey: Guid(79f3d2d08a8b89c479d44ff3697a0531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Trees/EU43Leaf1_Mat.mat using Guid(79f3d2d08a8b89c479d44ff3697a0531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f71cb7c16309689ec51c64748d0a86a') in 0.014090 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 88.602589 seconds.
-  path: Assets/Materials/ResidentialBuildings_M/hotel_glas.mat
-  artifactKey: Guid(7da8d1c3f249017418d84fc2a8404ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ResidentialBuildings_M/hotel_glas.mat using Guid(7da8d1c3f249017418d84fc2a8404ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927b79be95476f3488f1dc2ab15bfa13') in 0.010326 seconds 
+  Time since last request: 12.266421 seconds.
+  path: Assets/Materials/Trees/EU43Leaf2_Mat.mat
+  artifactKey: Guid(dcfc5117fe5589846aa95bf821bdde67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Trees/EU43Leaf2_Mat.mat using Guid(dcfc5117fe5589846aa95bf821bdde67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc7a67bcd521bc8a83fc3127f780509') in 0.011794 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.351436 seconds.
-  path: Assets/Objects/Residential Buildings 001.fbx
-  artifactKey: Guid(88e903c856e411b44a0ae8b249a18f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Residential Buildings 001.fbx using Guid(88e903c856e411b44a0ae8b249a18f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f0eb850cb5a3cd7cdf9df7a5e57ca4') in 0.015697 seconds 
+  Time since last request: 13.350971 seconds.
+  path: Assets/Materials/Trees/EU43Roots4_Mat.mat
+  artifactKey: Guid(c9fa083b9ab02124fa2c3e5d72519198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Trees/EU43Roots4_Mat.mat using Guid(c9fa083b9ab02124fa2c3e5d72519198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2391c3a99c7198788c324302ab8fbf7b') in 0.017417 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 76.287278 seconds.
-  path: Assets/Mesh
-  artifactKey: Guid(94eedc5027919204bb3dfca907fbf5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh using Guid(94eedc5027919204bb3dfca907fbf5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b41b4c3e3bfc279497d60593e11a1e') in 0.007481 seconds 
+  Time since last request: 9.725292 seconds.
+  path: Assets/Materials/Trees/EU43Trunk4_Mat.mat
+  artifactKey: Guid(a156b9d1ef9fa3b45aef7427a41f566c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Trees/EU43Trunk4_Mat.mat using Guid(a156b9d1ef9fa3b45aef7427a41f566c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f18da972baf78be0ea4b1f448294426') in 0.010602 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.240717 seconds.
-  path: Assets/Mesh/Residential Buildings 001.fbx
-  artifactKey: Guid(88e903c856e411b44a0ae8b249a18f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh/Residential Buildings 001.fbx using Guid(88e903c856e411b44a0ae8b249a18f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2939a902d852a686b8d6a37dff9b71c1') in 0.059984 seconds 
+  Time since last request: 12.470176 seconds.
+  path: Assets/Materials/Trees/EU43Twig1_Mat.mat
+  artifactKey: Guid(29059b1d8b23ac540890a47d33ab4f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Trees/EU43Twig1_Mat.mat using Guid(29059b1d8b23ac540890a47d33ab4f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea52cff952d584f1e1dc5a95a7642f3') in 0.010582 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Mesh/Residential Buildings 008.fbx
-  artifactKey: Guid(89f28d0f0370a7f4d9d6c0591b8dc1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh/Residential Buildings 008.fbx using Guid(89f28d0f0370a7f4d9d6c0591b8dc1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e0ef3d04a15d1b4046e0c0123500ea') in 0.035162 seconds 
+  Time since last request: 23.321320 seconds.
+  path: Assets/Textures/Trees/EU43_Fruit1_Nrm.tif
+  artifactKey: Guid(922b1c0431c35f94caed9ad914d5f697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Trees/EU43_Fruit1_Nrm.tif using Guid(922b1c0431c35f94caed9ad914d5f697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6078dbaa26d5a8350aa0f699ff679483') in 0.058244 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Mesh/Residential Buildings 005.fbx
-  artifactKey: Guid(4640571c8b114544791997886cacb79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh/Residential Buildings 005.fbx using Guid(4640571c8b114544791997886cacb79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2868e915005ff28bd848db05faee7f55') in 0.033496 seconds 
+  Time since last request: 159.736399 seconds.
+  path: Assets/Mesh/Trees/EU43_3.obj
+  artifactKey: Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh/Trees/EU43_3.obj using Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27161044732ab1d9a07ea338bdb4416') in 0.244998 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Mesh/Residential Buildings 010.fbx
-  artifactKey: Guid(c75285d955307934292139c4bb028bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh/Residential Buildings 010.fbx using Guid(c75285d955307934292139c4bb028bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a0184c4e0d4b008fe2057b6711f541') in 0.028216 seconds 
+  Time since last request: 119.982302 seconds.
+  path: Assets/Textures/Trees/EU43_leaf1_Nrm.tif
+  artifactKey: Guid(87f5cf7de4a7bd84b8fda0c9de0fea1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Trees/EU43_leaf1_Nrm.tif using Guid(87f5cf7de4a7bd84b8fda0c9de0fea1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5cb7e0506ecbd3b9d8db5ab310b570') in 0.037883 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Mesh/Residential Buildings 003.fbx
-  artifactKey: Guid(d4c17783f9a6d1241b16c45edf56f5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mesh/Residential Buildings 003.fbx using Guid(d4c17783f9a6d1241b16c45edf56f5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c1cdea3b71c4509df1f28d2f71492a') in 0.033013 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 739.772746 seconds.
+  path: Assets/Mesh/Trees/EU43_3.obj
+  artifactKey: Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh/Trees/EU43_3.obj using Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bbbb92e94bc10345d8f112e991027c') in 0.291130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 225.180258 seconds.
+  path: Assets/Mesh/Trees/EU43_3.obj
+  artifactKey: Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh/Trees/EU43_3.obj using Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8463b19f62fd5da610c1331ca6967efa') in 0.317854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 365.630752 seconds.
+  path: Assets/Mesh/Trees/EU43_3.obj
+  artifactKey: Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh/Trees/EU43_3.obj using Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b126f815a61dd90c229e354dee0dc9') in 0.247434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 283.934829 seconds.
+  path: Assets/Textures/Trees/EU43_Leaf1_Front.tif
+  artifactKey: Guid(5998c0be8d0b08b4f8c91a1b13a7971d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Trees/EU43_Leaf1_Front.tif using Guid(5998c0be8d0b08b4f8c91a1b13a7971d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bd87360a4768ac3dc6d7b61e04535a') in 0.020960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.627250 seconds.
+  path: Assets/Textures/Trees/EU43_Leaf1_Front.tif
+  artifactKey: Guid(5998c0be8d0b08b4f8c91a1b13a7971d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Trees/EU43_Leaf1_Front.tif using Guid(5998c0be8d0b08b4f8c91a1b13a7971d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cb6457c52773e52d5578679046e49a') in 0.017186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.086769 seconds.
+  path: Assets/Textures/Trees/EU43_Leaf1_Front.tif
+  artifactKey: Guid(5998c0be8d0b08b4f8c91a1b13a7971d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Trees/EU43_Leaf1_Front.tif using Guid(5998c0be8d0b08b4f8c91a1b13a7971d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305652c868d5c32cbe6ebbdb3ff7878d') in 0.017120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.084058 seconds.
+  path: Assets/Textures/Trees/EU43_Leaf1_Front.tif
+  artifactKey: Guid(5998c0be8d0b08b4f8c91a1b13a7971d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Trees/EU43_Leaf1_Front.tif using Guid(5998c0be8d0b08b4f8c91a1b13a7971d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd3ea9b077a21c2e2b7e14a3f57c796') in 0.017649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1507.088820 seconds.
+  path: Assets/Textures/Trees/EU43_Trunk4_Nrm.tif
+  artifactKey: Guid(9dc03f4cdb7914742803bf5cff956897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Trees/EU43_Trunk4_Nrm.tif using Guid(9dc03f4cdb7914742803bf5cff956897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e23aa191e64f97c5819dd878031143e') in 0.117268 seconds 
