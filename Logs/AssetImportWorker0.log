@@ -15,7 +15,7 @@ E:/Unity_Projects_E/CMPM_121/HW1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59364
+63524
 Successfully changed project path to: E:/Unity_Projects_E/CMPM_121/HW1
 E:/Unity_Projects_E/CMPM_121/HW1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/Unity_Projects_E/CMPM_121/HW1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 107.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017266 seconds.
+Registered in 0.011112 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 98.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
+- Completed reload, in  0.653 seconds
 Domain Reload Profiling:
-	ReloadAssembly (896ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (653ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (5ms)
-		EndReloadAssembly (569ms)
-			LoadAssemblies (120ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (451ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
+			SetupTypeCache (97ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (323ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (280ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
+				RefreshPlugins (74ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003260 seconds.
+Registered in 0.003795 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects_E\CMPM_121\HW1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects_E\CMPM_121\HW1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.142 seconds
+- Completed reload, in  0.903 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1143ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (904ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (906ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (707ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
+			SetupTypeCache (233ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (397ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (319ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (239ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3837.
 Memory consumption went from 116.3 MB to 116.1 MB.
-Total: 2.595100 ms (FindLiveObjects: 0.274800 ms CreateObjectMapping: 0.254000 ms MarkObjects: 1.980800 ms  DeleteObjects: 0.084700 ms)
+Total: 2.737200 ms (FindLiveObjects: 0.245600 ms CreateObjectMapping: 0.268100 ms MarkObjects: 2.139000 ms  DeleteObjects: 0.083900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,16 +163,100 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 440988.637873 seconds.
-  path: Assets/Objects/Residential Buildings 009.fbx
-  artifactKey: Guid(e34bcc80533dc2945a6c2da22f0aa59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Residential Buildings 009.fbx using Guid(e34bcc80533dc2945a6c2da22f0aa59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87608c163811d25f47b3bab474f6c790') in 0.432400 seconds 
+  Time since last request: 450791.298770 seconds.
+  path: Assets/Objects/uploads_files_2479076_Simple+Vehicles.fbx
+  artifactKey: Guid(6687caf3c91ae31448e55333e8cdde3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/uploads_files_2479076_Simple+Vehicles.fbx using Guid(6687caf3c91ae31448e55333e8cdde3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1c71ad6c6254973ed5d1333909d614') in 0.239487 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
+  Time since last request: 340.203938 seconds.
+  path: Assets/Materials/ResidentialBuildings_M/ground.mat
+  artifactKey: Guid(f34ace4c4ea17154e99580433a3ee1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ResidentialBuildings_M/ground.mat using Guid(f34ace4c4ea17154e99580433a3ee1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67192881808eecea8e8174596eded64e') in 0.026828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.298034 seconds.
+  path: Assets/Materials/ResidentialBuildings_M/hotel_glas.mat
+  artifactKey: Guid(7da8d1c3f249017418d84fc2a8404ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ResidentialBuildings_M/hotel_glas.mat using Guid(7da8d1c3f249017418d84fc2a8404ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e0338917b27bfaad99e73a7f9872a8') in 0.010879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.431426 seconds.
+  path: Assets/Objects/Residential Buildings 002.fbx
+  artifactKey: Guid(ea3aca2ac2cf8b241b526425a41344ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Residential Buildings 002.fbx using Guid(ea3aca2ac2cf8b241b526425a41344ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800a55fc7293b9a38d31506e5751eac5') in 0.024414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.539409 seconds.
+  path: Assets/Materials/Roads/MAT_Road_Straight_Solid.mat
+  artifactKey: Guid(3801548576274a1409ee8a2983339a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Roads/MAT_Road_Straight_Solid.mat using Guid(3801548576274a1409ee8a2983339a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0b9b826ead8c72c4db611ee8923807') in 0.016793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.127159 seconds.
+  path: Assets/Textures/ResidentialBuildings/Box_N.jpg
+  artifactKey: Guid(e942978433cf80e45be6c235e7f3c042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ResidentialBuildings/Box_N.jpg using Guid(e942978433cf80e45be6c235e7f3c042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f450e291b1b1809b1d7f9ea99ba35d') in 0.050425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.917657 seconds.
+  path: Assets/Textures/ResidentialBuildings/AussenWand_N.jpg
+  artifactKey: Guid(5fb25a1a4d5f58a439cfb941f1619e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ResidentialBuildings/AussenWand_N.jpg using Guid(5fb25a1a4d5f58a439cfb941f1619e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b2d3e999f6cb0c5de01d9329d34a42') in 0.025822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.855207 seconds.
+  path: Assets/Textures/ResidentialBuildings/Box_D.jpg
+  artifactKey: Guid(b46cc366f41800c41908aa5d58ba05c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ResidentialBuildings/Box_D.jpg using Guid(b46cc366f41800c41908aa5d58ba05c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5da381f9f0de9492f5f62c4032e7a94') in 0.011594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.602589 seconds.
+  path: Assets/Materials/ResidentialBuildings_M/hotel_glas.mat
+  artifactKey: Guid(7da8d1c3f249017418d84fc2a8404ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ResidentialBuildings_M/hotel_glas.mat using Guid(7da8d1c3f249017418d84fc2a8404ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927b79be95476f3488f1dc2ab15bfa13') in 0.010326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.351436 seconds.
   path: Assets/Objects/Residential Buildings 001.fbx
   artifactKey: Guid(88e903c856e411b44a0ae8b249a18f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Residential Buildings 001.fbx using Guid(88e903c856e411b44a0ae8b249a18f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a75a0dd4ef4a78d8958785d57a9a6c') in 0.029769 seconds 
+Start importing Assets/Objects/Residential Buildings 001.fbx using Guid(88e903c856e411b44a0ae8b249a18f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f0eb850cb5a3cd7cdf9df7a5e57ca4') in 0.015697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.287278 seconds.
+  path: Assets/Mesh
+  artifactKey: Guid(94eedc5027919204bb3dfca907fbf5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh using Guid(94eedc5027919204bb3dfca907fbf5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b41b4c3e3bfc279497d60593e11a1e') in 0.007481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.240717 seconds.
+  path: Assets/Mesh/Residential Buildings 001.fbx
+  artifactKey: Guid(88e903c856e411b44a0ae8b249a18f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh/Residential Buildings 001.fbx using Guid(88e903c856e411b44a0ae8b249a18f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2939a902d852a686b8d6a37dff9b71c1') in 0.059984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mesh/Residential Buildings 008.fbx
+  artifactKey: Guid(89f28d0f0370a7f4d9d6c0591b8dc1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh/Residential Buildings 008.fbx using Guid(89f28d0f0370a7f4d9d6c0591b8dc1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e0ef3d04a15d1b4046e0c0123500ea') in 0.035162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mesh/Residential Buildings 005.fbx
+  artifactKey: Guid(4640571c8b114544791997886cacb79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh/Residential Buildings 005.fbx using Guid(4640571c8b114544791997886cacb79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2868e915005ff28bd848db05faee7f55') in 0.033496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mesh/Residential Buildings 010.fbx
+  artifactKey: Guid(c75285d955307934292139c4bb028bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh/Residential Buildings 010.fbx using Guid(c75285d955307934292139c4bb028bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a0184c4e0d4b008fe2057b6711f541') in 0.028216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mesh/Residential Buildings 003.fbx
+  artifactKey: Guid(d4c17783f9a6d1241b16c45edf56f5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh/Residential Buildings 003.fbx using Guid(d4c17783f9a6d1241b16c45edf56f5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c1cdea3b71c4509df1f28d2f71492a') in 0.033013 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

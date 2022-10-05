@@ -15,7 +15,7 @@ E:/Unity_Projects_E/CMPM_121/HW1
 -logFile
 Logs/AssetImportWorker10.log
 -srvPort
-59364
+63524
 Successfully changed project path to: E:/Unity_Projects_E/CMPM_121/HW1
 E:/Unity_Projects_E/CMPM_121/HW1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/Unity_Projects_E/CMPM_121/HW1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 80.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007781 seconds.
+Registered in 0.011372 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 71.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.614 seconds
+- Completed reload, in  0.773 seconds
 Domain Reload Profiling:
-	ReloadAssembly (614ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (774ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (436ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (538ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (108ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (253ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (310ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (128ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003254 seconds.
+Registered in 0.003475 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects_E\CMPM_121\HW1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Unity_Projects_E\CMPM_121\HW1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
+- Completed reload, in  1.149 seconds
 Domain Reload Profiling:
-	ReloadAssembly (978ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1149ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (743ms)
-			LoadAssemblies (81ms)
+		EndReloadAssembly (885ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
+			SetupTypeCache (321ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (324ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (381ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (209ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3837.
-Memory consumption went from 116.3 MB to 116.2 MB.
-Total: 2.549300 ms (FindLiveObjects: 0.227900 ms CreateObjectMapping: 0.199400 ms MarkObjects: 2.038600 ms  DeleteObjects: 0.082700 ms)
+Memory consumption went from 116.4 MB to 116.3 MB.
+Total: 3.759500 ms (FindLiveObjects: 0.308600 ms CreateObjectMapping: 0.268400 ms MarkObjects: 3.046400 ms  DeleteObjects: 0.135200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,25 +163,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 443325.457832 seconds.
-  path: Assets/Textures/Roads/t_roadtiles_straight_Crosswalk.png
-  artifactKey: Guid(3f43684f2db107248b5743d4c9c3d9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Roads/t_roadtiles_straight_Crosswalk.png using Guid(3f43684f2db107248b5743d4c9c3d9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca99ac811e7e1ad71a95125cff551980') in 0.091769 seconds 
+  Time since last request: 457029.759654 seconds.
+  path: Assets/Materials/GreenLawn/GreenLawn.mat
+  artifactKey: Guid(61e4404c2efdfac4695705ee3b07a87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GreenLawn/GreenLawn.mat using Guid(61e4404c2efdfac4695705ee3b07a87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcfb2a81aa8d0988d664c0e2bbabaa6') in 0.138998 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3032.647414 seconds.
-  path: Assets/Objects/RoadTile_Curve.fbx
-  artifactKey: Guid(d4b69cdfabb10274a93d29f94df2a278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/RoadTile_Curve.fbx using Guid(d4b69cdfabb10274a93d29f94df2a278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf999bd6b159e734f2dbff21a0d9b1c') in 0.134833 seconds 
+  Time since last request: 57.851155 seconds.
+  path: Assets/Mesh/Trees/EU43_3.obj
+  artifactKey: Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh/Trees/EU43_3.obj using Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ba79128a8c6d6fb441331e4b61a0dc') in 0.380687 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 266.349780 seconds.
-  path: Assets/Materials/Roads/MAT_Road_Straight.mat
-  artifactKey: Guid(c12dcb72734a0ae448eac6f763277164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Roads/MAT_Road_Straight.mat using Guid(c12dcb72734a0ae448eac6f763277164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831e0c52f1146e82a7fe9d427555a99f') in 0.032232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 267.699082 seconds.
-  path: Assets/Objects/RoadTile_Straight.fbx
-  artifactKey: Guid(b898cb345877260478e3e1c30f79b5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/RoadTile_Straight.fbx using Guid(b898cb345877260478e3e1c30f79b5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7aa2cef94180770eac9f73dc0a5699') in 0.016480 seconds 
+  Time since last request: 15.637871 seconds.
+  path: Assets/Mesh/Trees/EU43_3.obj
+  artifactKey: Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh/Trees/EU43_3.obj using Guid(13a972d79ac50a3479feb7fe35205f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704d8186542a4c664e8dc16d327c0921') in 0.193431 seconds 
