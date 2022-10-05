@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 503, y: 492}
   m_MaxSize: {x: 18097, y: 14042}
   vertical: 0
-  controlID: 17
+  controlID: 27
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 95
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 96
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,36 +317,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Mesh/Trees
+    - Assets/Textures/Trees
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Mesh/Trees
+  - Assets/Textures/Trees
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Unity_Projects_E\CMPM_121\HW1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: bc600000
-    m_LastClickedID: 24764
-    m_ExpandedIDs: 00000000f45b0000025c0000045c0000085c000000ca9a3b
+    scrollPos: {x: 0, y: 43.799927}
+    m_SelectedIDs: 665d0000
+    m_LastClickedID: 23910
+    m_ExpandedIDs: 00000000225d0000245d0000265d0000285d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: RoadTile
+      m_OriginalName: RoadTile
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 23894
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f45b0000
+    m_ExpandedIDs: 00000000225d0000245d0000265d0000285d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 68.39996}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -487,10 +487,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c0600000
+      scrollPos: {x: 0, y: 224.40002}
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 669dfeff74f8ffff92f8ffff36fbffff
+      m_ExpandedIDs: 6abffeffd8f7ffff58f8ffff36fbfffff2590000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -11.980959, y: 0.41318643, z: -0.24170561}
+    m_Target: {x: -4.861622, y: -4.2036314, z: -2.0458295}
     speed: 2
-    m_Value: {x: -11.980959, y: 0.41318643, z: -0.24170561}
+    m_Value: {x: -4.861622, y: -4.2036314, z: -2.0458295}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -775,7 +775,7 @@ MonoBehaviour:
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0.5001, y: 0.5001}
+      m_Size: {x: 0.15001, y: 0.15001}
     zGrid:
       m_Fade:
         m_Target: 0
@@ -788,13 +788,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.12977359, y: -0.69276553, z: 0.12888482, w: 0.6977847}
+    m_Target: {x: -0.24436946, y: 0.68908954, z: -0.26840326, w: -0.6274495}
     speed: 2
-    m_Value: {x: 0.12994856, y: -0.69162124, z: 0.12867199, w: 0.6987252}
+    m_Value: {x: -0.2445869, y: 0.6919272, z: -0.27190253, w: -0.62248135}
   m_Size:
-    m_Target: 10.151827
+    m_Target: 6.594151
     speed: 2
-    m_Value: 10.630185
+    m_Value: 6.594151
   m_Ortho:
     m_Target: 0
     speed: 2
