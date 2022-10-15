@@ -27,6 +27,7 @@ Assets Found:
 	Pizza Shop - https://sketchfab.com/3d-models/cartoon-building-435df25a299a4b78a5f031960b9a6c6a
 	Basketball Court - https://sketchfab.com/3d-models/basketball-court-d2ea5bc76e094f1a9e6aa15891bd6885
 	HDRI Skybox - https://polyhaven.com/a/drackenstein_quarry
+	UX Flat Icons - https://assetstore.unity.com/packages/2d/gui/icons/ux-flat-icons-free-202525
 
 Assets Made:
 	Apartment Ground (Plane mesh)
@@ -34,4 +35,4 @@ Assets Made:
 	Store Ground (Plane mesh)
 		Texture - https://www.cgtrader.com/free-3d-models/textures/architectural-textures/rocky-looking-pavement-stone
 
-Total Assets Used: 26
+Total Assets Used: 27
